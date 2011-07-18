@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UItoTop jQuery Plugin - Matt Varone</title>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+	<!-- the necessary css for UItoTop -->	
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="css/ui.totop.css" />
+	
+	<!-- basic styling just for this demo -->
+	<style type="text/css" media="screen">
+		*{margin:0 auto;}
+		#wrapper {width:90%;margin:15px auto;}
+		p { margin:20px 0;}
+	</style>
+	
+	<!-- jquery -->	
+	<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<!-- easing plugin ( optional ) -->
+	<script src="js/easing.js" type="text/javascript"></script>
+	<!-- UItoTop plugin -->
+	<script src="js/jquery.ui.totop.js" type="text/javascript"></script>
+
+		
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'moccaUItoTop', // fading element id
+				containerHoverClass: 'moccaUIhover', // fading element hover class
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+</head>
+
+<body>
+ <div id="wrapper">
+	
+	<h1><strong>UItoTop</strong> jQuery dynamic scroll-to-Top plugin</h1>
+	
+	<div class="entry">
+		
+			<p>Small jQuery plugin inspired by <a href="http://davidwalsh.name/jquery-top-link/" title="David Walsh" >David Walsh</a> to create a dynamic to-top UI feature. <strong>Scroll down to demo</strong>.</p>
+		
+			
+			<p>The plugin: <a href="js/jquery.ui.totop.js" title="jquery.ui.totop.js">jquery.ui.totop.js</a></p>
+			<p>The css: <a href="css/ui.totop.css" title="ui.totop.css">ui.totop.css</a></p>
+			<p>The image: <a href="img/ui.totop.png" title="image ( 8-bit PNG )">Up Sprite ( 8-bit PNG )</a></p>
+	</div>
+	
+	<p><small>by <a href="http://www.mattvarone.com/web-design/uitotop-jquery-plugin/" title="matt varone">matt varone</a></small></p>
+
+	<h2>Header Level &amp; 2</h2>
+	
+	<div class="entry">	
+		
+		<p>Phasellus nisl nisl, posuere sed, rhoncus ut, tempus sed, orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vitae pede. Mauris euismod erat eget sapien. Pellentesque adipiscing dui ut mi. Nunc porta blandit lectus. Quisque mauris sapien, adipiscing vel, hendrerit eget, commodo a, orci. Vestibulum vel nunc vel nisl rutrum tristique. Nulla facilisi. Nam ultricies. Vivamus mauris orci, consequat sed, venenatis at, congue accumsan, lectus. In hac habitasse platea dictumst. Quisque varius lorem quis libero. Quisque dui nisl, viverra vel, euismod ut, vehicula et, lacus. Phasellus vulputate cursus dolor.</p>
+		
+		<ul>
+		   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+		   <li>Aliquam tincidunt mauris eu risus.</li>
+		</ul>
+	
+		<ul>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+					<li>Aliquam tincidunt mauris eu risus.</li>
+				</ul>
+			</li>
+		   <li>Aliquam tincidunt mauris eu risus.</li>
+		</ul>
+
+		<ol>
+		   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+		   <li>Aliquam tincidunt mauris eu risus.</li>
+		</ol>
+
+		<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+						
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec odio ut ipsum rutrum aliquet. Praesent eget risus at sapien dignissim aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In justo pede, accumsan sed, lacinia at, aliquam vitae, sem. Pellentesque a mauris vitae erat malesuada consectetur. Morbi diam risus, sollicitudin eu, laoreet et, cursus vel, enim. Aenean justo. Pellentesque id est a ipsum porttitor faucibus. Aliquam erat volutpat. Proin non odio. Integer laoreet dolor eu justo. Fusce vitae mauris ac pede consequat pulvinar. Ut auctor feugiat libero. Nullam consequat eros ac lacus.</p></div>
+	
+		<p>Morbi mollis leo vitae orci. Phasellus bibendum tincidunt turpis. Nunc ultricies. Nunc convallis luctus risus. Nunc ac purus eget orci rutrum pellentesque. Fusce ultricies dui aliquet urna. Donec imperdiet sem eu mauris. Aliquam in justo et dolor egestas lacinia. Cras aliquet lectus eu tellus. Duis in ante. Quisque consequat tristique nulla. Aliquam ligula mauris, hendrerit ac, sagittis id, scelerisque eu, odio. Phasellus felis. Fusce fermentum tempus nunc. Donec posuere.</p>
+
+		<p>Phasellus nisl nisl, posuere sed, rhoncus ut, tempus sed, orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vitae pede. Mauris euismod erat eget sapien. Pellentesque adipiscing dui ut mi. Nunc porta blandit lectus. Quisque mauris sapien, adipiscing vel, hendrerit eget, commodo a, orci. Vestibulum vel nunc vel nisl rutrum tristique. Nulla facilisi. Nam ultricies. Vivamus mauris orci, consequat sed, venenatis at, congue accumsan, lectus. In hac habitasse platea dictumst. Quisque varius lorem quis libero. Quisque dui nisl, viverra vel, euismod ut, vehicula et, lacus. Phasellus vulputate 
+			
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec odio ut ipsum rutrum aliquet. Praesent eget risus at sapien dignissim aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In justo pede, accumsan sed, lacinia at, aliquam vitae, sem. Pellentesque a mauris vitae erat malesuada consectetur. Morbi diam risus, sollicitudin eu, laoreet et, cursus vel, enim. Aenean justo. Pellentesque id est a ipsum porttitor faucibus. Aliquam erat volutpat. Proin non odio. Integer laoreet dolor eu justo. Fusce vitae mauris ac pede consequat pulvinar. Ut auctor feugiat libero. Nullam consequat eros ac lacus.</p>
+
+		<p>Morbi mollis leo vitae orci. Phasellus bibendum tincidunt turpis. Nunc ultricies. Nunc convallis luctus risus. Nunc ac purus eget orci rutrum pellentesque. Fusce ultricies dui aliquet urna. Donec imperdiet sem eu mauris. Aliquam in justo et dolor egestas lacinia. Cras aliquet lectus eu tellus. Duis in ante. Quisque consequat tristique nulla. Aliquam ligula mauris, hendrerit ac, sagittis id, scelerisque eu, odio. Phasellus felis. Fusce fermentum tempus nunc. Donec posuere.</p>
+
+		<p>Phasellus nisl nisl, posuere sed, rhoncus ut, tempus sed, orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vitae pede. Mauris euismod erat eget sapien. Pellentesque adipiscing dui ut mi. Nunc porta blandit lectus. Quisque mauris sapien, adipiscing vel, hendrerit eget, commodo a, orci. Vestibulum vel nunc vel nisl rutrum tristique. Nulla facilisi. Nam ultricies. Vivamus mauris orci, consequat sed, venenatis at, congue accumsan, lectus. In hac habitasse platea dictumst. Quisque varius lorem quis libero. Quisque dui nisl, viverra vel, euismod ut, vehicula et, lacus. Phasellus vulputate cursus dolor.</p>																
+	
+	</div>
+	
+</body>
+</html>
