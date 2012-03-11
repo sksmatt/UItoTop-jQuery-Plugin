@@ -1,5 +1,7 @@
 # UItoTop jQuery Plugin
 
+http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+
 ## License 
 
 Copyright (C) 2010  Matt Varone
