@@ -1,22 +1,5 @@
-# UItoTop jQuery Plugin
+# Hey Matt!
 
-http://www.mattvarone.com/web-design/uitotop-jquery-plugin/  
+The EDD (https://github.com/easydigitaldownloads/Easy-Digital-Downloads) wanted to catch up with you, since we haven't heard from you for a year. 
 
-Ver 1.2  
-
-## License 
-
-Copyright (C) 2010  Matt Varone
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+Please reach out to one of us. We'd love to hear from you!
