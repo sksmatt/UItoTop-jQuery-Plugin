@@ -1,6 +1,6 @@
-"name":"jquery.ui-to-top",
+"name": "ui-to-top",
 "main": [
-	"js/jquery.ui.totop.js" ,
+	"js/jquery.ui.totop.js",
 	"css/ui-totop.css",
 	"img/ui.totop.png"
-	]
+]
