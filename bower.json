@@ -1,6 +1,11 @@
-"name": "ui-to-top",
-"main": [
-	"js/jquery.ui.totop.js",
-	"css/ui-totop.css",
-	"img/ui.totop.png"
-]
+{
+	"name": "ui-to-top",
+	"version": "1.3",
+	"license": "MIT",
+	"homepage": "https://github.com/sksmatt/UItoTop-jQuery-Plugin",
+	"main": [
+		"js/jquery.ui.totop.js",
+		"css/ui-totop.css",
+		"img/ui.totop.png"
+	]
+}
