@@ -5,7 +5,7 @@
   "license": "GNU",
   "main": [
    "js/jquery.ui.totop.js",
-		"css/ui-totop.css",
-		"img/ui.totop.png"
+	"css/ui-totop.css",
+	"img/ui.totop.png"
   ]
 }
