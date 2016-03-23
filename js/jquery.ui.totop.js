@@ -1,6 +1,6 @@
 /*
 |--------------------------------------------------------------------------
-| UItoTop jQuery Plugin 1.2 by Matt Varone
+| UItoTop jQuery Plugin 1.2.1 by Matt Varone - Modified: Justin Obney
 | http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
 |--------------------------------------------------------------------------
 */
@@ -15,16 +15,17 @@
       			containerID: 'toTop',
     			containerHoverID: 'toTopHover',
     			scrollSpeed: 1200,
-    			easingType: 'linear'
+    			easingType: 'linear',
+    			opacity: 1
  		    },
             settings = $.extend(defaults, options),
             containerIDhash = '#' + settings.containerID,
             containerHoverIDHash = '#'+settings.containerHoverID;
-		
+
 		$('body').append('<a href="#" id="'+settings.containerID+'">'+settings.text+'</a>');
 		$(containerIDhash).hide().on('click.UItoTop',function(){
 			$('html, body').animate({scrollTop:0}, settings.scrollSpeed, settings.easingType);
-			$('#'+settings.containerHoverID, this).stop().animate({'opacity': 0 }, settings.inDelay, settings.easingType);
+			$(containerHoverIDHash, this).stop().animate({'opacity': 0 }, settings.inDelay, settings.easingType);
 			return false;
 		})
 		.prepend('<span id="'+settings.containerHoverID+'"></span>')
@@ -32,12 +33,12 @@
 				$(containerHoverIDHash, this).stop().animate({
 					'opacity': 1
 				}, 600, 'linear');
-			}, function() { 
+			}, function() {
 				$(containerHoverIDHash, this).stop().animate({
 					'opacity': 0
 				}, 700, 'linear');
 			});
-					
+
 		$(window).scroll(function() {
 			var sd = $(window).scrollTop();
 			if(typeof document.body.style.maxHeight === "undefined") {
@@ -46,10 +47,10 @@
 					'top': sd + $(window).height() - 50
 				});
 			}
-			if ( sd > settings.min ) 
-				$(containerIDhash).fadeIn(settings.inDelay);
-			else 
-				$(containerIDhash).fadeOut(settings.Outdelay);
+			if ( sd > settings.min )
+				$(containerIDhash).stop().fadeTo(settings.inDelay, settings.opacity);
+			else
+				$(containerIDhash).stop().fadeTo(settings.Outdelay, 0);
 		});
 };
 })(jQuery);
